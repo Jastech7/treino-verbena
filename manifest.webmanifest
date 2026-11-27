@@ -1,0 +1,17 @@
+{
+  "name": "Treino Verbena · Normas em Foco",
+  "short_name": "Treino Verbena",
+  "description": "Treino gratuito com 12 questões reais da Verbena/UFG, com voz e explicação de cada alternativa.",
+  "lang": "pt-BR",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f4f7fb",
+  "theme_color": "#17365d",
+  "icons": [
+    {"src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
+    {"src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ]
+}

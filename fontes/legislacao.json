@@ -1,0 +1,325 @@
+[
+ {
+  "id": "q1",
+  "prova": "Perolândia",
+  "ano": 2024,
+  "n": 37,
+  "gab": "B",
+  "area": "Legislação educacional",
+  "tema": "LDB · Educação Infantil",
+  "fonte": "LDB, art. 31 (organização da Educação Infantil)",
+  "stem": "{c:A LDB nº 9.394/1996 confere um importante quadro de normas e disposições organizacionais a respeito da educação brasileira.} No que concerne à {s:Educação Infantil}, a Lei estabelece que esta será organizada em observância à diversas {s:regras comuns}. Entre as referidas regras podem ser citadas",
+  "alts": {
+   "A": "a {n:definição da carga horária mínima anual} de {x:600 (seiscentas) horas}, distribuída por um mínimo de 200 (duzentos) dias de trabalho educacional; {n:atendimento à criança} de, no mínimo, {x:5 (cinco) horas diárias} para o turno parcial e de {x:8 (oito) horas} para a jornada integral; {n:controle de frequência} {c:pela instituição de educação pré-escolar}, exigida a frequência mínima de {x:50% (cinquenta por cento)} do total de horas; {n:expedição de documentação} que permita atestar {x:o nível de aprendizagem} da criança.",
+   "B": "a {n:disposição de carga horária mínima anual} de {f:800 (oitocentas) horas}, distribuída por um mínimo de {f:200 (duzentos) dias} de trabalho educacional; {n:atendimento à criança} de, no mínimo, {f:4 (quatro) horas diárias} para o turno parcial e de {f:7 (sete) horas} para a jornada integral; {n:controle de frequência} {c:pela instituição de educação pré-escolar}, exigida a frequência mínima de {f:60% (sessenta por cento)} do total de horas; {n:expedição de documentação} que permita atestar {f:os processos de desenvolvimento e aprendizagem} da criança.",
+   "C": "a definição de um mínimo de 200 (duzentos) dias de trabalho educacional, {x:sem fixação}, devido à natureza da primeira etapa da Educação Básica, {x:de carga horária mínima}; {n:atendimento à criança} de, no mínimo, {x:5 (cinco) horas diárias} para o turno parcial e de 7 (sete) horas para a jornada integral; {n:controle de frequência} {c:pela instituição de educação pré-escolar}, exigida a frequência mínima de 60% (sessenta por cento) do total de horas; {n:expedição de documentação} que permita atestar {x:o nível de aprendizagem} da criança ao longo do ano letivo.",
+   "D": "a disposição de um mínimo de {x:180 (cento e oitenta) dias} de trabalho educacional, {x:sem fixação}, devido à natureza da primeira etapa da Educação Básica, {x:de carga horária mínima}; atendimento à criança de, no mínimo, 4 (quatro) horas diárias para o turno parcial e de {x:oito (oito) horas} para a jornada integral; {x:sem exigência de controle de frequência} {c:pela instituição de educação pré-escolar}; {n:expedição de documentação} que permita atestar {x:o nível de aprendizagem} da criança ao longo do período escolar."
+  },
+  "comando": "Pede as regras comuns da Educação Infantil na LDB. As alternativas são enormes, mas repare: o enunciado só quer saber de {Educação Infantil} e de {regras comuns}.",
+  "leitura": "As quatro alternativas listam os mesmos itens (carga horária, dias, atendimento, frequência, documentação). O núcleo é o mesmo; o que muda são os dados. Por isso, a leitura aqui anda em colunas, item por item.",
+  "nuc": {
+   "A": "600 h · 5/8 h · 50%",
+   "B": "800 h · 4/7 h · 60%",
+   "C": "sem carga mínima",
+   "D": "180 dias · sem frequência"
+  },
+  "why": {
+   "A": {
+    "t": "dado",
+    "x": "Troca três dados (600 h, 5 h/8 h, 50%) e diz “nível de aprendizagem”: na Educação Infantil a avaliação é para acompanhar o desenvolvimento, sem objetivo de promoção."
+   },
+   "B": {
+    "t": "certa",
+    "x": "Tudo confere com o art. 31: 800 horas, 200 dias, 4 h (parcial) e 7 h (integral), 60% de frequência e documentação dos processos de desenvolvimento e aprendizagem."
+   },
+   "C": {
+    "t": "oposto",
+    "x": "Diz que a carga horária mínima “não é fixada”, mas a LDB fixa 800 horas. Ainda erra o turno parcial (5 h)."
+   },
+   "D": {
+    "t": "dado",
+    "x": "Começa errando: 180 dias (a LDB diz 200). E ainda dispensa o controle de frequência, que a lei exige (60%)."
+   }
+  },
+  "tabela": [
+   [
+    "Item",
+    "A",
+    "B ✓",
+    "C",
+    "D"
+   ],
+   [
+    "Carga horária anual mínima",
+    "600 h",
+    "800 h",
+    "“sem fixação”",
+    "“sem fixação”"
+   ],
+   [
+    "Dias de trabalho",
+    "200",
+    "200",
+    "200",
+    "180"
+   ],
+   [
+    "Turno parcial / integral",
+    "5 h / 8 h",
+    "4 h / 7 h",
+    "5 h / 7 h",
+    "4 h / 8 h"
+   ],
+   [
+    "Frequência mínima",
+    "50%",
+    "60%",
+    "60%",
+    "sem controle"
+   ],
+   [
+    "Documentação",
+    "“nível de aprendizagem”",
+    "“processos de desenvolvimento e aprendizagem”",
+    "“nível de aprendizagem”",
+    "“nível de aprendizagem”"
+   ]
+  ],
+  "licao": "Alternativa longa e gêmea: leia em colunas. Escolha uma âncora que você domina (800 h e 200 dias) e elimine. Um único item errado derruba a alternativa inteira. Memória: 800 h · 200 dias · 4 h parcial / 7 h integral · 60% de frequência · sem promoção."
+ },
+ {
+  "id": "q2",
+  "prova": "Padre Bernardo",
+  "ano": 2024,
+  "n": 51,
+  "gab": "C",
+  "area": "Legislação educacional",
+  "tema": "LDB · art. 26-A",
+  "fonte": "LDB, art. 26-A (Lei 11.645/2008)",
+  "stem": "{c:Em 2026, a Lei de Diretrizes e Bases da Educação Nacional (LDB nº 9.394/1996) completará três décadas de existência caracterizadas pelas mudanças oriundas de acréscimos e alterações de artigos, exemplos: 26-A e 79-B.} O artigo {s:26-A} estabelece como {s:obrigatório}",
+  "alts": {
+   "A": "{n:o ensino religioso}{x:, de matrícula facultativa}.",
+   "B": "o estudo sobre os {n:símbolos nacionais} como tema transversal.",
+   "C": "{n:o estudo da história e cultura afro-brasileira e indígena}.",
+   "D": "a possibilidade de {n:aceleração de estudos} para alunos com atraso escolar."
+  },
+  "comando": "O enunciado entrega um ENDEREÇO (art. 26-A) e pede o que mora lá. A palavra “obrigatório” também pesa: ela elimina o que é facultativo ou apenas “possível”.",
+  "leitura": "Cada alternativa é uma afirmação verdadeira sobre a LDB, mas só uma mora no 26-A. O núcleo é o assunto de cada uma; compare com o endereço do enunciado.",
+  "nuc": {
+   "A": "ensino religioso (facultativo)",
+   "B": "símbolos nacionais",
+   "C": "história e cultura afro e indígena",
+   "D": "aceleração de estudos"
+  },
+  "why": {
+   "A": {
+    "t": "outro",
+    "x": "O ensino religioso, de matrícula facultativa, tem artigo próprio na LDB. E “facultativo” já contradiz o “obrigatório” do enunciado."
+   },
+   "B": {
+    "t": "outro",
+    "x": "Símbolos nacionais são assunto de outro dispositivo da LDB, não do 26-A."
+   },
+   "C": {
+    "t": "certa",
+    "x": "É o conteúdo do art. 26-A (Lei 11.645/2008): estudo obrigatório da história e cultura afro-brasileira e indígena."
+   },
+   "D": {
+    "t": "outro",
+    "x": "A aceleração de estudos para quem tem atraso escolar existe na LDB, mas em outro artigo (art. 24). Verdadeira, só que de outro lugar."
+   }
+  },
+  "tri": {
+   "simbolo": "“26-A”",
+   "pensamento": "o número aponta um endereço da lei, não um tema qualquer",
+   "referente": "o conteúdo que a LDB manda ensinar nas escolas: afro-brasileiro e indígena"
+  },
+  "licao": "Distrator verdadeiro, endereço errado: a banca usa fatos reais da LDB, mas de outros artigos. O que decide é o endereço. Memória: 26-A = afro e indígena."
+ },
+ {
+  "id": "q4",
+  "prova": "Diorama",
+  "ano": 2023,
+  "n": 42,
+  "gab": "B",
+  "area": "Legislação educacional",
+  "tema": "Lei Brasileira de Inclusão",
+  "fonte": "LBI (Lei 13.146/2015), art. 28, caput e I",
+  "stem": "Segundo a {s:Lei Brasileira de Inclusão} da Pessoa com Deficiência (2015), cabe ao {s:poder público} {s:assegurar}",
+  "alts": {
+   "A": "{n:educação inclusiva} {x:no ensino fundamental e médio}.",
+   "B": "{n:sistema educacional inclusivo} {f:em todos os níveis e modalidades}.",
+   "C": "{n:escola inclusiva} {x:dos seis aos dezessete anos de idade}.",
+   "D": "{n:sistema de inclusão} {x:na etapa obrigatória da educação básica}."
+  },
+  "comando": "Pede o que o poder público deve assegurar. O verbo “assegurar” fala de dever; o que está em jogo é até onde vai esse dever.",
+  "leitura": "O núcleo é quase igual nas quatro (educação, escola ou sistema inclusivo). Quem separa as alternativas é o complemento: ele amplia ou restringe o alcance.",
+  "nuc": {
+   "A": "inclusiva só no fund. e médio",
+   "B": "sistema inclusivo em todos os níveis",
+   "C": "escola inclusiva de 6 a 17 anos",
+   "D": "inclusão só na etapa obrigatória"
+  },
+  "why": {
+   "A": {
+    "t": "alcance",
+    "x": "Restringe a dois níveis. A lei fala em todos os níveis e modalidades."
+   },
+   "B": {
+    "t": "certa",
+    "x": "É o alcance total que a LBI estabelece: sistema educacional inclusivo em todos os níveis e modalidades, e aprendizado ao longo de toda a vida."
+   },
+   "C": {
+    "t": "alcance",
+    "x": "Prende o dever a uma faixa de idade (6 a 17). A inclusão não tem esse recorte."
+   },
+   "D": {
+    "t": "alcance",
+    "x": "Limita à etapa obrigatória da educação básica. A lei vai da educação básica à superior, incluindo as modalidades."
+   }
+  },
+  "tri": {
+   "simbolo": "“sistema educacional inclusivo”",
+   "pensamento": "o sistema inteiro é pensado para incluir, não apenas uma etapa",
+   "referente": "da creche à pós-graduação, na EJA, na educação profissional..."
+  },
+  "licao": "Quando o núcleo é parecido nas quatro, a diferença mora no complemento. Desconfie de recortes (“só”, faixa de idade, “etapa”): a LBI fala em todos os níveis e modalidades."
+ },
+ {
+  "id": "q5",
+  "prova": "Goiatuba",
+  "ano": 2023,
+  "n": 57,
+  "gab": "D",
+  "area": "Legislação educacional",
+  "tema": "Fundeb",
+  "fonte": "CF/88, art. 212-A (EC 108/2020) · Lei 14.113/2020",
+  "stem": "Instituído pela {s:Lei n. 14.113/2020}, o Fundo de Manutenção e Desenvolvimento da Educação Básica e de Valorização dos Profissionais da Educação ({s:FUNDEB}) {s:compreende} um",
+  "alts": {
+   "A": "{n:mecanismo de financiamento} da educação básica e apoio aos profissionais da educação {x:com vigência de 10 anos}.",
+   "B": "{x:dispositivo de arrecadação de recursos} criado pelo poder público {x:e pelo setor privado} com o objetivo de favorecer o desenvolvimento da educação básica.",
+   "C": "{n:instrumento de financiamento} da educação básica e de valorização dos profissionais da educação {x:criado pela LDB n. 9.394/1996, com vigência de 14 anos}.",
+   "D": "{n:fundo de natureza contábil}, {f:de caráter permanente}, {f:previsto no Art. 212-A da Constituição Federal} e destinado ao {n:financiamento da educação básica}."
+  },
+  "comando": "Pede o que o Fundeb “compreende”, isto é, a natureza dele: que tipo de coisa ele é. Depois do núcleo vêm as condições (prazo, origem, base legal).",
+  "leitura": "O núcleo é o substantivo que classifica o Fundeb (mecanismo, dispositivo, instrumento, fundo). As condições que vêm depois (prazo, quem cria, base legal) é que derrubam as erradas.",
+  "nuc": {
+   "A": "financiamento, 10 anos",
+   "B": "arrecadação, com o setor privado",
+   "C": "criado pela LDB, 14 anos",
+   "D": "fundo contábil permanente (212-A)"
+  },
+  "why": {
+   "A": {
+    "t": "dado",
+    "x": "Põe prazo de vigência (10 anos). O Fundeb atual é permanente."
+   },
+   "B": {
+    "t": "conceito",
+    "x": "O Fundeb não “arrecada”: é um fundo contábil que reúne e redistribui recursos de impostos. E não é criado com o setor privado."
+   },
+   "C": {
+    "t": "dado",
+    "x": "Duas falhas: não foi criado pela LDB (tem base na Constituição) e “14 anos” era o prazo do Fundeb anterior (2007–2020), não do atual."
+   },
+   "D": {
+    "t": "certa",
+    "x": "Fundo contábil, permanente, previsto no art. 212-A da Constituição e voltado ao financiamento da educação básica."
+   }
+  },
+  "licao": "Fundeb = fundo contábil permanente (CF, art. 212-A; EC 108/2020), regulamentado pela Lei 14.113/2020. A pegadinha é o prazo: o atual não tem data de validade."
+ },
+ {
+  "id": "q8",
+  "prova": "Perolândia",
+  "ano": 2024,
+  "n": 31,
+  "gab": "C",
+  "area": "Legislação educacional",
+  "tema": "BNCC · competência",
+  "fonte": "BNCC (Resolução CNE/CP nº 2/2017), Introdução",
+  "stem": "{c:Em diferentes documentos oficiais, desde os anos de 1990, o conceito de competência se faz presente. Homologada em 2017, a Base Nacional Comum Curricular (BNCC) também traz o mencionado conceito.} Na {s:BNCC}, a {s:competência} deve ser compreendida como a",
+  "alts": {
+   "A": "{n:transferência de informações} entre educadores e educandos no curso da ação pedagógica, {c:configurando aprendizados ligados à inteligência emocional e diante da qual a escola deve mobilizar seus esforços no sentido de apoiar seu desenvolvimento}.",
+   "B": "{n:disposição para assimilar conteúdos científicos}, {c:o que permite o desenvolvimento de habilidades (memorização), de virtudes (inovação) e valores (dedicação ao realizar uma tarefa), componentes que estão na base da vida escolar do educando}.",
+   "C": "{n:mobilização} de {n:conhecimentos} (conceitos e procedimentos), {n:habilidades} (práticas, cognitivas e socioemocionais), {n:atitudes e valores} {f:para resolver demandas complexas da vida cotidiana, do pleno exercício da cidadania e do mundo do trabalho}.",
+   "D": "{n:capacidade de escuta, retenção, memória e reprodução} dos conteúdos escolares {c:que integram a Base Nacional Comum Curricular e que se colocam como elemento central do trabalho realizado na escola pela direção e por toda a equipe pedagógica}."
+  },
+  "comando": "Pede a definição de competência “na BNCC”. O senso comum não vale: vale o que o documento diz.",
+  "leitura": "As alternativas são longas, mas o núcleo é curto: o que a alternativa diz que a competência É. O resto, em cinza, é enfeite que você pode riscar.",
+  "nuc": {
+   "A": "transferência de informações",
+   "B": "disposição para assimilar conteúdos",
+   "C": "mobilizar saberes para resolver demandas",
+   "D": "escuta, retenção e reprodução"
+  },
+  "why": {
+   "A": {
+    "t": "conceito",
+    "x": "“Transferência de informações” é a lógica de transmissão. A BNCC fala em mobilizar saberes, não em transferi-los."
+   },
+   "B": {
+    "t": "conceito",
+    "x": "Reduz competência a uma “disposição para assimilar conteúdos”. A BNCC a define pelo que o estudante faz com o que sabe."
+   },
+   "C": {
+    "t": "certa",
+    "x": "É a definição da BNCC: mobilizar conhecimentos, habilidades, atitudes e valores para resolver demandas complexas da vida cotidiana, da cidadania e do trabalho."
+   },
+   "D": {
+    "t": "oposto",
+    "x": "Escuta, retenção, memória e reprodução são o oposto de resolver demandas complexas: é decorar, não aplicar."
+   }
+  },
+  "licao": "Competência (BNCC) = mobilizar conhecimentos + habilidades + atitudes + valores para resolver demandas complexas. O núcleo está no verbo “mobilizar” e na finalidade “resolver”. As erradas usam verbos de transmissão e memória."
+ },
+ {
+  "id": "q9",
+  "prova": "Padre Bernardo",
+  "ano": 2024,
+  "n": 32,
+  "gab": "C",
+  "area": "Legislação educacional",
+  "tema": "PNE · objetivo",
+  "fonte": "CF/88, art. 214 (EC 59/2009)",
+  "stem": "O {s:Plano Nacional de Educação (PNE)}, de acordo com a Constituição Federal de 1988 e redação dada pela Emenda Constitucional nº 59/2009, {s:objetiva}",
+  "alts": {
+   "A": "{x:hierarquizar} os sistemas de ensino.",
+   "B": "{x:padronizar} o ensino nas redes públicas e privadas de ensino.",
+   "C": "{n:articular} o sistema nacional de educação {f:em regime de colaboração}.",
+   "D": "{x:diferenciar} os papéis entre os entes federados."
+  },
+  "comando": "Pede o objetivo do PNE. A palavra que manda é “objetiva”: ela pede um verbo, aquilo que o plano busca fazer.",
+  "leitura": "Alternativas curtas: o núcleo é o verbo que abre cada uma. Hierarquizar, padronizar, articular, diferenciar. É a escolha do verbo que decide a questão.",
+  "nuc": {
+   "A": "hierarquizar",
+   "B": "padronizar",
+   "C": "articular em colaboração",
+   "D": "diferenciar papéis"
+  },
+  "why": {
+   "A": {
+    "t": "oposto",
+    "x": "Hierarquizar é subordinar uns sistemas a outros: o contrário do regime de colaboração."
+   },
+   "B": {
+    "t": "conceito",
+    "x": "Padronizar soa a uniformizar tudo, inclusive redes privadas. O PNE articula, não padroniza."
+   },
+   "C": {
+    "t": "certa",
+    "x": "A Constituição (art. 214) manda o PNE articular o sistema nacional de educação em regime de colaboração."
+   },
+   "D": {
+    "t": "conceito",
+    "x": "O foco do PNE é articular os entes federados, não diferenciar seus papéis."
+   }
+  },
+  "tri": {
+   "simbolo": "“articular”",
+   "pensamento": "ligar as partes sem subordinar uma à outra",
+   "referente": "União, estados e municípios pactuando metas comuns"
+  },
+  "licao": "Em alternativa curta, o verbo é o núcleo. PNE (CF, art. 214): decenal, para articular o sistema nacional de educação em regime de colaboração. Verbos de cima para baixo (hierarquizar, padronizar) contrariam a colaboração."
+ }
+]
